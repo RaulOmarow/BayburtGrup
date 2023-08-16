@@ -7046,10 +7046,10 @@ blockquote {
 }
 
 .nav-dropdown-list-2 {
-  width: 200px;
+  width: 220px;
   background-color: #fff;
   border: 1px solid rgba(0, 0, 0, .18);
-  padding: 15px 20px;
+  padding: 15px 15px;
 }
 
 .nav-dropdown-list-2.w--open {
@@ -7064,7 +7064,7 @@ blockquote {
 }
 
 .nav-dropdown-list-2.portfolio-details.w--open {
-  width: 220px;
+  width: 280px;
 }
 
 .dropdown-header {
@@ -7908,10 +7908,10 @@ blockquote {
   align-items: center;
   display: flex;
   position: absolute;
-  top: 21%;
+  top: 37%;
   bottom: auto;
   left: auto;
-  right: 28%;
+  right: 40%;
 }
 
 .icons-wrap {
@@ -8047,8 +8047,8 @@ blockquote {
   align-items: center;
   display: flex;
   position: relative;
-  bottom: 6%;
-  left: -28%;
+  bottom: 17%;
+  left: 6.5%;
 }
 
 .map-section {
@@ -8080,8 +8080,8 @@ blockquote {
   align-items: center;
   display: flex;
   position: relative;
-  top: 13%;
-  left: 2%;
+  top: -10%;
+  left: 5%;
 }
 
 .form-block-3 {
