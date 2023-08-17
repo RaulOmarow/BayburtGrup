@@ -1,0 +1,77 @@
+#scroller {
+    width: 10000%;
+}
+
+#scroller.ready>* {
+    display: inline-block;
+    float: left;
+    overflow: hidden;
+
+    webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+
+
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+
+
+    -webkit-animation-duration: 10s;
+    animation-duration: 10s;
+
+
+    -webkit-animation-name: marginator;
+    animation-name: marginator;
+
+
+
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+
+#scroller:hover>* {
+
+
+    -webkit-animation-play-state: paused;
+    animation-play-state: paused;
+}
+
+@-webkit-keyframes marginator {
+    0% {
+        -webkit-transform: translate(0, 0);
+        -webkit-transform: translate3d(0, 0, 0);
+    }
+
+    100% {
+        -webkit-transform: translate(-100%, 0);
+        -webkit-transform: translate3d(-100%, 0, 0);
+    }
+}
+
+@keyframes marginator {
+    0% {
+
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0);
+
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+
+    100% {
+
+
+        -webkit-transform: translate(-100%, 0);
+        transform: translate(-100%, 0);
+
+
+        -webkit-transform: translate3d(-100%, 0, 0);
+        transform: translate3d(-100%, 0, 0);
+    }
+}
+
+#scroller-wrapper {
+    overflow: hidden;
+}
