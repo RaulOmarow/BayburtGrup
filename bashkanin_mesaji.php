@@ -11,8 +11,7 @@
   <meta content="Webflow" name="generator" />
   <link href="https://assets.website-files.com/636a29406d53f43b6aa0b6b2/css/ruc-wcopilot-template.webflow.958c7167f.css"
     rel="stylesheet" type="text/css" />
-  <link rel="stylesheet" href="/assets/css/style.css" />
-  <link rel="stylesheet" href="/assets/css/custom-style.css">
+  <link rel="stylesheet" href="/assets/css/custom-style.css" />
   <style>
     @media (min-width:992px) {
       html.w-mod-js:not(.w-mod-ix) [data-w-id="7e5c1bee-e3a6-2e84-065e-de0693fafa30"] {
@@ -70,10 +69,6 @@
       font-size: 36px;
       font-weight: 500;
     }
-
-    .companyicons {
-      width: 32%;
-    }
   </style>
   <link href="https://fonts.googleapis.com" rel="preconnect" />
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous" />
@@ -105,7 +100,7 @@
     data-collapse="medium" role="banner" data-no-scroll="1" data-duration="400" data-doc-height="1">
     <div class="nav-container w-container">
       <div class="menu-wrapper navbar-logos">
-        <a href="./index.html" class="brand-logo w-nav-brand">
+        <a href="./index.php" class="brand-logo w-nav-brand">
           <img src="./assets/images/bayburtgrup.png" loading="lazy" alt="Project logo"
             class="image-ruc-animation" /><img src="./assets/images/bayburtgrup.png" loading="lazy" height="30"
             alt="Project logo" class="image-ruc" /></a>
@@ -118,14 +113,14 @@
                     loading="lazy" alt="" class="nav-close-icon-2" /></div>
               </div>
               <div class="dropdown-menu">
-                <div class="top-tablet-menu"><a href="./index.html" class="logo-mobile-2 w-nav-brand"><img
+                <div class="top-tablet-menu"><a href="./index.php" class="logo-mobile-2 w-nav-brand"><img
                       src="./assets/images/logo2.png" loading="lazy" height="24" alt="Project logo"
                       class="image-ruc tablet" /></a>
                   <div class="border-wrap">
                     <div data-hover="true" data-delay="0" data-w-id="89385717-1392-dfe4-0b80-fd62fc5504e3"
                       class="nav-dropdown-home-5 w-dropdown">
                       <div class="dropdown-header w-dropdown-toggle">
-                        <a class="nav-item-title-white" href="./index.html">ANA SAYFA</a>
+                        <a class="nav-item-title-white" href="./index.php">ANA SAYFA</a>
                       </div>
                     </div>
                     <div data-hover="true" data-delay="0" data-w-id="89385717-1392-dfe4-0b80-fd62fc5504fe"
@@ -136,25 +131,25 @@
                       </div>
                       <nav class="nav-dropdown-list-2 portfolio-details w-dropdown-list">
                         <div class="nav-dropdown-link-wrapper-2">
-                          <a href="./tarihce.html" class="nav-dropdown-link-2 w-dropdown-link">
+                          <a href="./tarihce.php" class="nav-dropdown-link-2 w-dropdown-link">
                             <span class="nav-dropdowm-link-line"></span>TARİHÇE</a>
-                          <a href="./misyon_ve_vizyon.html" class="nav-dropdown-link-2 w-dropdown-link"><span
+                          <a href="./misyon_ve_vizyon.php" class="nav-dropdown-link-2 w-dropdown-link"><span
                               class="nav-dropdowm-link-line">
-                            </span>MİSYON VE VİZYON</a><a href="./kalite.html"
+                            </span>MİSYON VE VİZYON</a><a href="./kalite.php"
                             class="nav-dropdown-link-2 w-dropdown-link"><span class="nav-dropdowm-link-line">
                             </span>ŞİRKET POLİTİKALARI</a>
-                          <a href="./yonetim_kurulu.html" class="nav-dropdown-link-2 w-dropdown-link"><span
+                          <a href="./yonetim_kurulu.php" class="nav-dropdown-link-2 w-dropdown-link"><span
                               class="nav-dropdowm-link-line"> </span>YÖNETİM KURULU</a>
-                          <a href="./bashkanin_mesaji.html" class="nav-dropdown-link-2 w-dropdown-link"><span
+                          <a href="./bashkanin_mesaji.php" class="nav-dropdown-link-2 w-dropdown-link"><span
                               class="nav-dropdowm-link-line">
-                            </span>BAŞKANIN MESAJI</a><a href="./grup_shirketler.html"
+                            </span>BAŞKANIN MESAJI</a><a href="./grup_shirketler.php"
                             class="nav-dropdown-link-2 w-dropdown-link"><span class="nav-dropdowm-link-line">
                             </span>GRUP ŞİRKETLERİ</a>
-                          <a href="./odul_ve_basharilar.html" class="nav-dropdown-link-2 w-dropdown-link"><span
+                          <a href="./odul_ve_basharilar.php" class="nav-dropdown-link-2 w-dropdown-link"><span
                               class="nav-dropdowm-link-line"> </span>ÖDÜL VE BAŞARILAR</a>
-                          <a href="./uyelikler.html" class="nav-dropdown-link-2 w-dropdown-link"><span
+                          <a href="./uyelikler.php" class="nav-dropdown-link-2 w-dropdown-link"><span
                               class="nav-dropdowm-link-line"> </span>ÜYELİKLER VE SERTİFİKALAR</a>
-                          <a href="./kurucularimiz.html" class="nav-dropdown-link-2 w-dropdown-link"><span
+                          <a href="./kurucularimiz.php" class="nav-dropdown-link-2 w-dropdown-link"><span
                               class="nav-dropdowm-link-line"> </span>KURUCULARIMIZ</a>
                         </div>
                       </nav>
@@ -162,19 +157,19 @@
                     <div data-hover="true" data-delay="0" data-w-id="9057e22c-9835-6293-94d1-0ffde7a4485a"
                       class="nav-dropdown-transparent w-dropdown">
                       <div class="dropdown-header w-dropdown-toggle">
-                        <a class="nav-item-title-white" href="./our-services.html">FAALİYET ALANLARI</a>
+                        <a class="nav-item-title-white" href="./our-services.php">FAALİYET ALANLARI</a>
                       </div>
                     </div>
                     <div data-hover="true" data-delay="0" data-w-id="89385717-1392-dfe4-0b80-fd62fc55050d"
                       class="nav-dropdown-transparent w-dropdown">
                       <div class="dropdown-header w-dropdown-toggle">
                         <div class="nav-dropdown-icon-white w-icon-dropdown-toggle"></div>
-                        <a class="nav-item-title-white" href="./our-services.html">PROJELER</a>
+                        <a class="nav-item-title-white" href="./our-services.php">PROJELER</a>
                       </div>
                       <nav class="nav-dropdown-list-2 portfolio-details w-dropdown-list">
-                        <div class="nav-dropdown-link-wrapper-2"><a href="./our-projects-1.html"
+                        <div class="nav-dropdown-link-wrapper-2"><a href="./our-projects-1.php"
                             class="nav-dropdown-link-2 w-dropdown-link"><span class="nav-dropdowm-link-line"> </span>
-                            TAMAMLANAN PROJELER</a><a href="./our-projects-2.html"
+                            TAMAMLANAN PROJELER</a><a href="./our-projects-2.php"
                             class="nav-dropdown-link-2 w-dropdown-link"><span class="nav-dropdowm-link-line"> </span>
                             DEVAM EDEN PROJELER</a>
                         </div>
@@ -183,13 +178,13 @@
                     <div data-hover="true" data-delay="0" data-w-id="89385717-1392-dfe4-0b80-fd62fc550520"
                       class="nav-dropdown-transparent w-dropdown">
                       <div class="dropdown-header w-dropdown-toggle">
-                        <a class="nav-item-title-white" href="./why-choose-us.html">SOSYAL SORUMLULUK</a>
+                        <a class="nav-item-title-white" href="./why-choose-us.php">SOSYAL SORUMLULUK</a>
                       </div>
                     </div>
                     <div data-hover="true" data-delay="0" data-w-id="89385717-1392-dfe4-0b80-fd62fc55053b"
                       class="nav-dropdown-transparent w-dropdown">
                       <div class="dropdown-header w-dropdown-toggle">
-                        <a class="nav-item-title-white" href="./work-process.html">HABERLER</a>
+                        <a class="nav-item-title-white" href="./work-process.php">HABERLER</a>
                       </div>
                     </div>
                   </div>
@@ -197,7 +192,7 @@
               </div>
             </div>
           </nav>
-        </div><a href="./iletishim.html" class="primary-red-button header-button w-button">İLETİŞİM</a>
+        </div><a href="./iletishim.php" class="primary-red-button header-button w-button">İLETİŞİM</a>
         <div class="search-shop-con-2 home-5">
           <div data-w-id="89385717-1392-dfe4-0b80-fd62fc5505b3" class="navbar-search-icon-2"></div>
         </div>
@@ -212,7 +207,7 @@
   </div>
 
   <div class="banner-content-about-us">
-    <h6>GRUP ŞİRKETLERİ</h6>
+    <h6>BAŞKANIN MESAJI</h6>
   </div>
 
 
@@ -220,116 +215,23 @@
   <div class="section light-background">
     <div class="base-container w-container">
       <div class="about-5-info-wrapper">
-        <div class="about-5-info-wrap-left" style="width: 100%;">
+        <div class="about-5-info-wrap-left" style="width: 70%;">
           <div class="about-company-ruc">
             <div data-w-id="d8d1c041-c7ef-2aa6-77f6-b6fc6c08d53b" style="opacity:0"
               class="main-left-title-wrapper full-width">
-              <h2><span class="red-h2-text">GRUP ŞİRKETLERİ</span></h2>
+              <h2><span class="red-h2-text">BAŞKANIN MESAJI</span></h2>
             </div>
-          </div>
-          <div data-w-id="d8d1c041-c7ef-2aa6-77f6-b6fc6c08d544" style="opacity:0" class="about-5-info-cards-wrapper">
-            <!-- Start BAYBURT İNŞAAT -->
-            <div class="about-ruc-company-wrap companyicons">
-              <div class="iconboxshirketlerlogo"><img
-                  src="./assets/images/grup-şirketleri/sirket-detay-bayburt-insaat.png" loading="lazy"
-                  alt="Building icons" class="image-company-ruc" /></div>
-              <div class="iconboxshirketlertitle">
-                <h5>BAYBURT İNŞAAT</h5>
-              </div>
-            </div>
-            <!-- End BAYBURT İNŞAAT -->
-
-            <!-- Start BAYBURT ENERJİ -->
-            <div class="about-ruc-company-wrap companyicons">
-              <div class="iconboxshirketlerlogo"><img src="./assets/images/grup-şirketleri/bayburt-enerji-logo.png"
-                  loading="lazy" alt="Building icons" class="image-company-ruc" /></div>
-              <div class="iconboxshirketlertitle">
-                <h5>BAYBURT ENERJİ</h5>
-              </div>
-            </div>
-            <!-- End BAYBURT ENERJİ -->
-
-            <!-- Start BAYBURT BETON -->
-            <div class="about-ruc-company-wrap companyicons">
-              <div class="iconboxshirketlerlogo"><img src="./assets/images/grup-şirketleri/bayburt-beton.png"
-                  loading="lazy" alt="Building icons" class="image-company-ruc" /></div>
-              <div class="iconboxshirketlertitle">
-                <h5>BAYBURT BETON</h5>
-              </div>
-            </div>
-            <!-- End BAYBURT BETON -->
-
-            <!-- Start ÖZGÜN YAPI -->
-            <div class="about-ruc-company-wrap companyicons">
-              <div class="iconboxshirketlerlogo"><img src="./assets/images/grup-şirketleri/sirket-detay-ozgun-logo.png"
-                  loading="lazy" alt="Building icons" class="image-company-ruc" /></div>
-              <div class="iconboxshirketlertitle">
-                <h5>ÖZGÜN YAPI</h5>
-              </div>
-            </div>
-            <!-- End ÖZGÜN YAPI -->
-
-            <!-- Start ŞENBAY PETROL -->
-            <div class="about-ruc-company-wrap companyicons">
-              <div class="iconboxshirketlerlogo"><img src="./assets/images/grup-şirketleri/senbay-petrol.png"
-                  loading="lazy" alt="Building icons" class="image-company-ruc" /></div>
-              <div class="iconboxshirketlertitle">
-                <h5>ŞENBAY PETROL</h5>
-              </div>
-            </div>
-            <!-- End ŞENBAY PETROL -->
-
-            <!-- Start AGROBAY SERACILIK -->
-            <div class="about-ruc-company-wrap companyicons">
-              <div class="iconboxshirketlerlogo"><img src="./assets/images/grup-şirketleri/akrobay-seracilik.png"
-                  loading="lazy" alt="Building icons" class="image-company-ruc" /></div>
-              <div class="iconboxshirketlertitle">
-                <h5>AGROBAY SERACILIK</h5>
-              </div>
-            </div>
-            <!-- End AGROBAY SERACILIK -->
-
-            <!-- Start TÜRKELİ SERACILIK -->
-            <div class="about-ruc-company-wrap companyicons">
-              <div class="iconboxshirketlerlogo"><img src="./assets/images/grup-şirketleri/turkeli.png" loading="lazy"
-                  alt="Building icons" class="image-company-ruc" /></div>
-              <div class="iconboxshirketlertitle">
-                <h5>TÜRKELİ SERACILIK</h5>
-              </div>
-            </div>
-            <!-- End TÜRKELİ SERACILIK -->
-
-            <!-- Start HASANBEY ÇİFTLİĞİ -->
-            <div class="about-ruc-company-wrap companyicons">
-              <div class="iconboxshirketlerlogo"><img src="./assets/images/grup-şirketleri/hasanbey-logo.png"
-                  loading="lazy" alt="Building icons" class="image-company-ruc" /></div>
-              <div class="iconboxshirketlertitle">
-                <h5>HASANBEY ÇİFTLİĞİ</h5>
-              </div>
-            </div>
-            <!-- End HASANBEY ÇİFTLİĞİ -->
-
-            <!-- Start SÜT KARDEŞLER -->
-            <div class="about-ruc-company-wrap companyicons">
-              <div class="iconboxshirketlerlogo"><img src="./assets/images/grup-şirketleri/sut-kardesler-logo.png"
-                  loading="lazy" alt="Building icons" class="image-company-ruc" /></div>
-              <div class="iconboxshirketlertitle">
-                <h5>SÜT KARDEŞLER</h5>
-              </div>
-            </div>
-            <!-- End SÜT KARDEŞLER -->
-
-            <!-- Start ANKABAY SİGORTA -->
-            <div class="about-ruc-company-wrap companyicons">
-              <div class="iconboxshirketlerlogo"><img src="./assets/images/grup-şirketleri/ankara-sigorta.jpg"
-                  loading="lazy" alt="Building icons" class="image-company-ruc" /></div>
-              <div class="iconboxshirketlertitle">
-                <h5>ANKABAY SİGORTA</h5>
-              </div>
-            </div>
-            <!-- End ANKABAY SİGORTA -->
+            <p data-w-id="d8d1c041-c7ef-2aa6-77f6-b6fc6c08d542" style="opacity:0" class="paragraph-large-size">Bayburt
+              Grup, faaliyet gösterdiği çeşitli sektörlerde küresel başarılar elde ederek ülkesine gurur vermek için her
+              zaman gayret gösterecek ve kalitesiyle farklılık yaratmaya, sürdürülebilir büyüme anlayışı ile geleceği
+              inşa etmeye devam edecektir.</p>
           </div>
         </div>
+        <div class="about-5-info-wrap-right" style="width: 30%;"><img src="/assets/images/about/baskanin-mesaji.png"
+            loading="lazy" style="opacity:0" data-w-id="d8d1c041-c7ef-2aa6-77f6-b6fc6c08d552"
+            srcset="/assets/images/about/baskanin-mesaji.png 500w, /assets/images/about/baskanin-mesaji.png 710w"
+            sizes="(max-width: 479px) 94vw, (max-width: 767px) 96vw, (max-width: 991px) 97vw, (max-width: 1279px) 45vw, 545px"
+            alt="Construction Photos" /></div>
       </div>
     </div>
   </div>
@@ -343,7 +245,7 @@
       <div data-w-id="7ce617ec-d939-c9a7-048b-7fd81a04dc16" class="footer-main-wrapper">
         <div class="footer-content-wrapper">
           <div class="footer-brand-wrapper-2">
-            <div class="footer-logo-wrapper-2"><a href="index.html" class="footer-brand-2 w-nav-brand footer-logo"><img
+            <div class="footer-logo-wrapper-2"><a href="index.php" class="footer-brand-2 w-nav-brand footer-logo"><img
                   src="./assets/images/logo2.png" loading="lazy" height="19" alt="Project logo" class="image-ruc" /></a>
               <p class="footer-brand-description-2">
                 Bayburt Grup başta inşaat sektörü olmak üzere enerji, üretim ve hizmet sektörlerinde akaryakıt ikmali,
@@ -380,12 +282,12 @@
           </div>
         </div>
       </div>
-      <div data-w-id="7ce617ec-d939-c9a7-048b-7fd81a04dc40" class="footer-links-wrapper-2"><a href="./index.html"
-          class="footer-link-3">Ana Sayfa</a><a href="./about-us.html" class="footer-link-3">Hakkımızda</a><a
-          href="our-services.html" class="footer-link-3">Faaliyet Alanları</a><a href="blog-grid"
-          class="footer-link-3">Projeler</a><a href="./our-projects-1.html" class="footer-link-3">Sosyal
+      <div data-w-id="7ce617ec-d939-c9a7-048b-7fd81a04dc40" class="footer-links-wrapper-2"><a href="./index.php"
+          class="footer-link-3">Ana Sayfa</a><a href="./about-us.php" class="footer-link-3">Hakkımızda</a><a
+          href="our-services.php" class="footer-link-3">Faaliyet Alanları</a><a href="blog-grid"
+          class="footer-link-3">Projeler</a><a href="./our-projects-1.php" class="footer-link-3">Sosyal
           Sorumluluk</a>
-        <a href="./our-projects-1.html" class="footer-link-3">Haberler</a>
+        <a href="./our-projects-1.php" class="footer-link-3">Haberler</a>
       </div>
       <div data-w-id="7ce617ec-d939-c9a7-048b-7fd81a04dc4b" class="footer-rights-wrapper-2">
         <div class="footer-copyright-2">Telif Hakkı © 2023 <a href="https://www.butagrup.com.tr/" target="_blank"><img

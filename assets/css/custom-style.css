@@ -8,3 +8,7 @@
 .w-webflow-badge {
     display: none !important;
 }
+
+.banner-content-about-us h4 {
+    color: white !important;
+}

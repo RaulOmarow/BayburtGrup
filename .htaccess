@@ -1,0 +1,48 @@
+Options +FollowSymLinks -MultiViews
+RewriteEngine On
+RewriteBase /
+RewriteCond %{HTTP_HOST} !^ www.bayburtgrup.com.tr$
+
+RewriteRule ^$  index.php [NC,L]
+RewriteRule ^hakkimizda$  hakkimizda.php [NC,L]
+RewriteRule ^faaliyet_alanlari$  faaliyet_alanlari.php [NC,L]
+RewriteRule ^tarihce$  tarihce.php [NC,L]
+RewriteRule ^misyon_ve_vizyon$  misyon_ve_vizyon.php [NC,L]
+RewriteRule ^yonetim_kurulu$  yonetim_kurulu.php [NC,L]
+RewriteRule ^bashkanin_mesaji$  bashkanin_mesaji.php [NC,L]
+RewriteRule ^odul_ve_basharilar$  odul_ve_basharilar.php [NC,L]
+RewriteRule ^uyelikler$  uyelikler.php [NC,L]
+RewriteRule ^politics$  politika.php [NC,L]
+RewriteRule ^blog$  blog.php [NC,L]
+RewriteRule ^blog_details$  blog_details.php [NC,L]
+RewriteRule ^kurucularimiz$  kurucularimiz.php [NC,L]
+RewriteRule ^projeler$  projeler.php [NC,L]
+RewriteRule ^sosyal_sorumluluk$  sosyal_sorumluluk.php [NC,L]
+RewriteRule ^kalite$  kalite.php [NC,L]
+RewriteRule ^iletishim$  iletishim.php [NC,L]
+RewriteRule ^grup_shirketler$  grup_shirketler.php [NC,L]
+
+
+ErrorDocument 403 /403.php
+ErrorDocument 404 /404.php
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  # Send would-be 404 requests to Craft
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_URI} !^/(favicon\.ico|apple-touch-icon.*\.png)$ [NC]
+  RewriteRule (.+) 404.php?p=$1 [QSA,L]
+</IfModule>
+
+
+
+
+
+
+
+
+
+
+
